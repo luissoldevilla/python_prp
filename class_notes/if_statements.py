@@ -16,3 +16,12 @@ if (number < 0):
     print('its a negative number')
 else:
     print('Its a postive number')
+
+
+# Problem 3 || compare number
+
+num1 = 15
+num2 = 20
+
+if (num1 < num2):
+    print(num2, 'is higher')
