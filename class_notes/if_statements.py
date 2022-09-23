@@ -25,3 +25,8 @@ num2 = 20
 
 if (num1 < num2):
     print(num2, 'is higher')
+
+# Problem 4
+
+num = int(input('Number:'))
+num2 = int(input('Second Number:'))
