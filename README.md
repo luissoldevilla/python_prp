@@ -1,1 +1,5 @@
-# python_prp
+# Python
+
+This Repo is where I practice python
+
+
