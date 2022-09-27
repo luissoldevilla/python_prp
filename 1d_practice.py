@@ -12,7 +12,10 @@ while(x>=1):
     print(x)
 x = x - 1
 
+# Input for numbers
+
 x=int(input('Number of Loops:'))
 while(x>=1):
     print(x)
-x = x - 1
+    x = x - 1
+
