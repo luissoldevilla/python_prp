@@ -1,4 +1,4 @@
-print('Number\tSquare')
+print('Number\t Square')
 print('--------------')
 
 # Print the numbers 1 through 10
