@@ -5,3 +5,7 @@ TAILS = random.randint(3,10)
 
 headCount = 0
 tailCount = 0
+
+for counter in range(11):
+
+    outcome = random.randrange(HEADS, TAILS)
