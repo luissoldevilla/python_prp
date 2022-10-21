@@ -15,3 +15,5 @@ for counter in range(11):
     else:
         print("TAILS")
         tailCount = tailCount + 1
+    print('Heads Count:', headCount)
+    print('Tails Count:', tailCount)
