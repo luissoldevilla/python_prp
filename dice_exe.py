@@ -11,3 +11,8 @@ diescore2 = random.randrange(1,7)
 dieroll = diescore1 + diescore2
 
 print('Dieroll', dieroll)
+
+while(dieroll >= 8):
+
+    diescore1 = random.randrange(1,7)
+    diescore2 = random.randrange(1,7)
