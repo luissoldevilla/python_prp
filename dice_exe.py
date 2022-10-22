@@ -19,3 +19,6 @@ while(dieroll >= 8):
     dieroll = diescore1 + diescore2
         
     total = total + dieroll
+    print('Dieroll = ', dieroll)
+    print('Total = ', total)
+print('Final Total = ', total)
