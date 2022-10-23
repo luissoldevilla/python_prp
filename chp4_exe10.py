@@ -7,3 +7,7 @@ years = 5
 print('tuition\tyears')
 print('--------------------')
 print(tuition, '\t', 0)
+
+for years in range (1, years + 1):
+    tuition *= (1+tuition_increase)
+    print(tuition, '\t', years)
