@@ -24,9 +24,10 @@ elif (p1c1rank == 1) and (p1c1rank == 1):
 else:
     points = p1c1rank + p1c2rank
 
-print(p1c1rank)
-print(p1c2rank)
+print('Player 1: ', p1c1rank)
+print("Player 2: ", p1c2rank)
+print("Points: ", points)
 print(points)
-print(p1c1suit, p1c2suit)
+print(p1c1suit, "VS", p1c2suit)
 
 bonuspoints = points
