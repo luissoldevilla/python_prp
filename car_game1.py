@@ -9,24 +9,29 @@ p1c2suit = random.randrange(1,5)
 points = 0
 bonuspoints = 0
 
-if ((p1c1rank == 1) and (p1c2rank != 1)):
+# def sequence(cardrank, card):
+#     if (cardrank == (card2rank +1) or (cardrank)):
+#         cardrank
+#     else:
 
-    points = 20 + p1c2rank
+# if ((p1c1rank == 1) and (p1c2rank != 1)):
 
-elif (p1c1rank != 1) and (p1c2rank == 1):
+#     points = 20 + p1c2rank
 
-    points = p1c1rank + 20
+# elif (p1c1rank != 1) and (p1c2rank == 1):
 
-elif (p1c1rank == 1) and (p1c1rank == 1):
+#     points = p1c1rank + 20
 
-    points = 40
+# elif (p1c1rank == 1) and (p1c1rank == 1):
 
-else:
-    points = p1c1rank + p1c2rank
+#     points = 40
 
-print('Player 1: ', p1c1rank)
-print('Player 2: ', p1c2rank)
-print("Points: ", points)
-print(p1c1suit, "VS", p1c2suit)
+# else:
+#     points = p1c1rank + p1c2rank
 
-bonuspoints = points
+# print('Player 1: ', p1c1rank)
+# print('Player 2: ', p1c2rank)
+# print("Points: ", points)
+# print(p1c1suit, "VS", p1c2suit)
+
+# bonuspoints = points
