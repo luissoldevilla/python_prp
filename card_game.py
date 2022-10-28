@@ -10,3 +10,4 @@ points = 0
 bonuspoints = 0
 
 if ((p1c1rank == 1) and (p1c2rank != 1)):
+        points = 20 + p1c2rank
