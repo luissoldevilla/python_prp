@@ -14,3 +14,4 @@ if ((p1c1rank == 1) and (p1c2rank != 1)):
 elif (p1c1rank != 1) and (p1c2rank == 1):
         points = p1c1rank + 20
 elif (p1c1rank == 1) and (p1c1rank == 1):
+        points = 40
