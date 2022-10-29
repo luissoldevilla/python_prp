@@ -17,3 +17,6 @@ elif (p1c1rank == 1) and (p1c1rank == 1):
         points = 40
 else:
         points = p1c1rank + p1c2rank
+
+print(p1c1rank)
+print(p1c2rank)
