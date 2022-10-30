@@ -21,3 +21,5 @@ else:
 print(p1c1rank)
 print(p1c2rank)
 print(points)
+
+print(p1c1suit, p1c2suit)
