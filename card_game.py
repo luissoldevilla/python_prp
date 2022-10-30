@@ -20,3 +20,4 @@ else:
 
 print(p1c1rank)
 print(p1c2rank)
+print(points)
