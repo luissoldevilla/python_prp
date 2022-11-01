@@ -6,3 +6,4 @@ elif (age < 15):
         print('You cant drive')
 elif (age > 18):
         print('You can Drive')
+# we can also do else at the end    
