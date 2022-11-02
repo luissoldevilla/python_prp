@@ -5,3 +5,6 @@ snow4 = int(input('Day 4: '))
 snow5 = int(input('Day 5: '))
 
 snowdays = [snow1, snow2, snow3, snow4, snow5]
+
+for snow in snowdays:
+        print(snow)
