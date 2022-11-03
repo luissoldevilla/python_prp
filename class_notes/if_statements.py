@@ -30,3 +30,8 @@ if (num1 < num2):
 
 num = int(input('Number:'))
 num2 = int(input('Second Number:'))
+
+# Problem 5
+
+num = int(input('Number:'))
+num2 = int(input('Second Number:'))
