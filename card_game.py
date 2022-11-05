@@ -7,9 +7,6 @@ p1c2rank = random.randrange(1,14)
 p1c2suit = random.randrange(1,5)
 
 
-# p1c2rank = random.randrange(1,14)
-# p1c2suit = random.randrange(1,5)
-
 points = 0
 bonuspoints = 0
 
@@ -29,7 +26,7 @@ print(points)
 
 # print(p1c1rank)
 # print(p1c2rank)
-# print(points)
+
 
 print(p1c1suit, p1c2suit)
 
