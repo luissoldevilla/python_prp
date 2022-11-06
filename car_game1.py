@@ -14,7 +14,7 @@ def sequence(cardrank, card):
         cardrank
     else:
 
-# if ((p1c1rank == 1) and (p1c2rank != 1)):
+if ((p1c1rank == 1) and (p1c2rank != 1)):
 
 #     points = 20 + p1c2rank
 
