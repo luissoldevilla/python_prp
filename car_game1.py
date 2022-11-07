@@ -31,7 +31,7 @@ else:
 
 print('Player 1: ', p1c1rank)
 print('Player 2: ', p1c2rank)
-# print("Points: ", points)
+print("Points: ", points)
 # print(p1c1suit, "VS", p1c2suit)
 
 # bonuspoints = points
