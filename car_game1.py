@@ -26,8 +26,8 @@ elif (p1c1rank == 1) and (p1c1rank == 1):
 
     points = 40
 
-# else:
-#     points = p1c1rank + p1c2rank
+else:
+    points = p1c1rank + p1c2rank
 
 # print('Player 1: ', p1c1rank)
 # print('Player 2: ', p1c2rank)
