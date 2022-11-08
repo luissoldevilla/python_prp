@@ -1,3 +1,4 @@
+# we imprt the library random
 import random
 
 p1c1rank = random.randrange(1,14)
