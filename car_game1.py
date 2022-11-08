@@ -34,4 +34,5 @@ print('Player 2: ', p1c2rank)
 print("Points: ", points)
 print(p1c1suit, "VS", p1c2suit)
 
+# we set these same 
 bonuspoints = points
