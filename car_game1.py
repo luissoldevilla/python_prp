@@ -16,25 +16,25 @@ def sequence(cardrank, card):
         cardrank
     else:
 
-if ((p1c1rank == 1) and (p1c2rank != 1)):
+# if ((p1c1rank == 1) and (p1c2rank != 1)):
 
-    points = 20 + p1c2rank
+#     points = 20 + p1c2rank
 
-elif (p1c1rank != 1) and (p1c2rank == 1):
+# elif (p1c1rank != 1) and (p1c2rank == 1):
 
-    points = p1c1rank + 20
+#     points = p1c1rank + 20
 
-elif (p1c1rank == 1) and (p1c1rank == 1):
+# elif (p1c1rank == 1) and (p1c1rank == 1):
 
-    points = 40
+#     points = 40
 
-else:
-    points = p1c1rank + p1c2rank
+# else:
+#     points = p1c1rank + p1c2rank
 
-print('Player 1: ', p1c1rank)
-print('Player 2: ', p1c2rank)
-print("Points: ", points)
-print(p1c1suit, "VS", p1c2suit)
+# print('Player 1: ', p1c1rank)
+# print('Player 2: ', p1c2rank)
+# print("Points: ", points)
+# print(p1c1suit, "VS", p1c2suit)
 
-# we set these same 
-bonuspoints = points
+# # we set these same 
+# bonuspoints = points
