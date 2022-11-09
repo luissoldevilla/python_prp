@@ -11,6 +11,7 @@ diescore2 = random.randrange(1,7)
 
 dieroll = diescore1 + diescore2
 
+#  we have different prints
 print('Dieroll', dieroll)
 
 #  we can do this by a while loop
