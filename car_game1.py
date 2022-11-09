@@ -11,10 +11,10 @@ p1c2suit = random.randrange(1,5)
 points = 0
 bonuspoints = 0
 
-def sequence(cardrank, card):
-    if (cardrank == (card2rank +1) or (cardrank)):
-        cardrank
-    else:
+# def sequence(cardrank, card):
+#     if (cardrank == (card2rank +1) or (cardrank)):
+#         cardrank
+#     else:
 
 # if ((p1c1rank == 1) and (p1c2rank != 1)):
 
