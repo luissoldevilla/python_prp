@@ -1,3 +1,4 @@
+# we expoprt the library random
 import random
 
 total = 0
