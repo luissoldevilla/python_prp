@@ -11,6 +11,8 @@ p1c2suit = random.randrange(1,5)
 points = 0
 bonuspoints = 0
 
+# we set up a procedure
+
 # def sequence(cardrank, card):
 #     if (cardrank == (card2rank +1) or (cardrank)):
 #         cardrank
