@@ -7,12 +7,12 @@ def main():
     print('Here are the values you entered:')
     for value in rain:
         print(value)
+        print(value)
     sum_numbers=sum(rain)
     print('Total rain for 12 months are ',sum_numbers)
     average=sum_numbers/12
     print('The average rainfall per month is ',average)
     print('The highest value is', max(rain))
-    print('The lowest value is', min(rain))
     print('The lowest value is', min(rain))
 
 if __name__ == '__main__':
