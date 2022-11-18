@@ -7,7 +7,6 @@ def main():
     print('Here are the values you entered:')
     for value in rain:
         print(value)
-        print(value)
     sum_numbers=sum(rain)
     print('Total rain for 12 months are ',sum_numbers)
     average=sum_numbers/12
