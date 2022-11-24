@@ -11,3 +11,8 @@ print(dic2)
 # Write an if statement that determines whether the key 'James' exists in the dictionary. 
 # If so, display the value that is associ- ated with that key. 
 # If the key is not in the dictionary, display a message indicating so.
+
+if 'James' in dic:
+    print(dic['James'])
+else:
+    print("James Not found")
