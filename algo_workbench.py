@@ -28,3 +28,6 @@ if 'Jim' in dic:
 
 else:
     print(dic)
+
+# Write code to create a set with the 
+# following integers as members: 10, 20, 30, and 40.
