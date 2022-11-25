@@ -22,8 +22,8 @@ else:
 # If so, delete 'Jim' and its associated value.
 
 if 'Jim' in dic:
-    print(dic)
     del dic['Jim']
+    print(dic)
     print('Jim has been deleted')
 
 else:
