@@ -23,5 +23,8 @@ else:
 
 if 'Jim' in dic:
     print(dic)
+    del dic['Jim']
+    print('Jim has been deleted')
+
 else:
     print(dic)
