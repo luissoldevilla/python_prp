@@ -9,5 +9,8 @@
 # 'NT110':'1244'
 # 'CM241':'1411'
 
-courseRoomNumbers = {'CS101':'3004','CS102':'4501','CS103':'6755',
+roomNumbers = {'CS101':'3004','CS102':'4501','CS103':'6755',
 'NT110':'1244','CM241':'1411'}
+
+instructorCourse={'CS101':'Haynes','CS102':'Alvarado',
+'CS103':'Rich','NT110':'Burke','CM241':'Lee'}
