@@ -9,8 +9,21 @@
 # 'NT110':'1244'
 # 'CM241':'1411'
 
-roomNumbers = {'CS101':'3004','CS102':'4501','CS103':'6755',
-'NT110':'1244','CM241':'1411'}
+roomNumbers = {
+    'CS101':'3004',
+    'CS102':'4501',
+    'CS103':'6755',
+    'NT110':'1244',
+    'CM241':'1411'
+}
 
-instructorCourse={'CS101':'Haynes','CS102':'Alvarado',
-'CS103':'Rich','NT110':'Burke','CM241':'Lee'}
+# The program should also create a dictionary containing course numbers and the names of 
+# the instructors that teach each course. The dictionary should have the following key-value pairs:
+
+instructorCourse = {
+    'CS101':'Haynes',
+    'CS102':'Alvarado',
+    'CS103':'Rich',
+    'NT110':'Burke',
+    'CM241':'Lee'
+}
