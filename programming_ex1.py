@@ -27,3 +27,6 @@ instructorCourse = {
     'NT110':'Burke',
     'CM241':'Lee'
 }
+
+# The program should also create a dictionary containing course numbers and the meeting
+# times of each course. The dictionary should have the following key-value pairs:
