@@ -42,3 +42,7 @@ courseTimes = {
 #Prompt the user to enter the course number.
 
 courseNumber = input("Enter the Course Number: ")
+
+#Display the Course Room Number
+
+print("Course's Room Number:",roomNumbers[courseNumber])
