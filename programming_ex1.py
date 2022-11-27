@@ -37,4 +37,8 @@ courseTimes = {
     'CS103':'10:00 a.m.',
     'NT110':'11:00 a.m.',
     'CM241':'1:00 p.m.'
-} 
+}
+
+#Prompt the user to enter the course number.
+
+courseNumber = input("Enter the Course Number: ")
