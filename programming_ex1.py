@@ -30,3 +30,8 @@ instructorCourse = {
 
 # The program should also create a dictionary containing course numbers and the meeting
 # times of each course. The dictionary should have the following key-value pairs:
+
+courseTimes = {
+    'CS101':'8:00 a.m.',
+    'CS102':'9:00 a.m.',
+} 
