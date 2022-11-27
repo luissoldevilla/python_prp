@@ -34,4 +34,7 @@ instructorCourse = {
 courseTimes = {
     'CS101':'8:00 a.m.',
     'CS102':'9:00 a.m.',
+    'CS103':'10:00 a.m.',
+    'NT110':'11:00 a.m.',
+    'CM241':'1:00 p.m.'
 } 
