@@ -53,3 +53,4 @@ print("Instructor:",instructorCourse[courseNumber])
 
 #Display the meeting time.
 
+print("Time:",courseTimes[courseNumber])
