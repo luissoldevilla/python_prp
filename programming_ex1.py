@@ -46,3 +46,5 @@ courseNumber = input("Enter the Course Number: ")
 #Display the Course Room Number
 
 print("Course's Room Number:",roomNumbers[courseNumber])
+
+#Display the Instructor associated with the course.
