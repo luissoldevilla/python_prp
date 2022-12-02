@@ -51,6 +51,7 @@ def main():
         state = statesList[num]
         print('\n' + state)
         ans = input("\nEnter the capital of this state: ")
-    
+        if (ans == stateDict[state]):
+            correct += 1
 
 main()
