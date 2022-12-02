@@ -46,4 +46,11 @@ def main():
 
     again = 'y'
 
+    while (again == 'y'):
+        num = random.randint(MIN,MAX)
+        state = statesList[num]
+        print('\n' + state)
+        ans = input("\nEnter the capital of this state: ")
+    
+
 main()
