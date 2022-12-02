@@ -39,4 +39,11 @@ def main():
                       "Arkansas": "Little Rock", "Louisiana": "Baton Rouge"}
     print(state_capitals)
 
+    statesList = list(state_capitals)
+
+    correct = 0
+    incorrect = 0
+
+    again = 'y'
+
 main()
