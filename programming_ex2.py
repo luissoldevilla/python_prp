@@ -56,6 +56,7 @@ def main():
             print("Correct")
             again = input("Type y to play again, anything else to stop: ")
         else:
-            correct +=1  
+            correct +=1
+            print("Incorrect")  
 
 main()
