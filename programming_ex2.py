@@ -59,6 +59,7 @@ def main():
             correct +=1
             print("Incorrect")  
             again = input("Type y to play again, anything else to stop: ")
-
+    
+    print("\nYou have",correct,"correct answers")
 
 main()
