@@ -58,5 +58,7 @@ def main():
         else:
             correct +=1
             print("Incorrect")  
+            again = input("Type y to play again, anything else to stop: ")
+
 
 main()
