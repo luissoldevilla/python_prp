@@ -61,5 +61,6 @@ def main():
             again = input("Type y to play again, anything else to stop: ")
     
     print("\nYou have",correct,"correct answers")
+    print("\nYou have",incorrect,"incorrect answers")
 
 main()
