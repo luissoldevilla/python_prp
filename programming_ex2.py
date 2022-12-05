@@ -53,6 +53,7 @@ def main():
         num = random.randint(MIN,MAX)
         # invoking state from out list
         state = statesList[num]
+        # printing our list formmatting
         print('\n' + state)
         ans = input("\nEnter the capital of this state: ")
         if (ans == state_capitals[state]):
