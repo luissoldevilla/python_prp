@@ -51,6 +51,7 @@ def main():
         # MIN: atributte
         # MAX: atributte
         num = random.randint(MIN,MAX)
+        # invoking state from out list
         state = statesList[num]
         print('\n' + state)
         ans = input("\nEnter the capital of this state: ")
