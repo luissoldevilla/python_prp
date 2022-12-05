@@ -50,7 +50,7 @@ def main():
         # Figuring this part out 
         # MIN: atributte
         # MAX: atributte
-        num = random.randint(MIN,MAX)
+        num = random.randint()
         # invoking state from out list
         state = statesList[num]
         # printing our list formmatting
