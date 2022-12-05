@@ -49,6 +49,7 @@ def main():
     while (again == 'y'):
         # Figuring this part out 
         # MIN: atributte
+        # MAX: atributte
         num = random.randint(MIN,MAX)
         state = statesList[num]
         print('\n' + state)
