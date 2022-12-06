@@ -1,3 +1,7 @@
+#  Write a program that generates 100 random numbers 
+# and keeps a count of how many of those random 
+# numbers are even, and how many of them are odd.
+
 import random
 
 countEven = 0
