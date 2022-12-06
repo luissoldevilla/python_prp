@@ -10,3 +10,6 @@ for count in range(100):
         countEven += 1
     else:
         countOdd += 1
+
+print('Number of Even:', countEven)
+print('Number of Odd:', countOdd)
