@@ -11,5 +11,5 @@ for count in range(100):
     else:
         countOdd += 1
 
-print('Number of Even:', countEven)
-print('Number of Odd:', countOdd)
+print('Numbers of Even:', countEven)
+print('Numbers of Odd:', countOdd)
