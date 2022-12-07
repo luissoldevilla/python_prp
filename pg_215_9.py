@@ -1,3 +1,4 @@
+# We can start the ocean level at 1 
 ocean_level = 1
 level_raise = 1.6
 print('Year' , 1, 'ocean level is:', level_raise)
