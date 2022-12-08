@@ -11,3 +11,8 @@ if answer == "Y" or answer == "y" or answer == "n" or answer == "N":
             if answer == "n" or answer == "N":
                 print("Make sure the cables are plugged in firmly.")
                 answer = input("Did that fix the problem? ")
+
+                if answer == "Y" or answer == "y" or answer == "n" or answer == "N":
+                    if answer == "n" or answer == "N":
+                        print("Move the router to a new location")
+                        answer = input("Did that fix the problem? ")
