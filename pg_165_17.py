@@ -23,3 +23,5 @@ if answer == "Y" or answer == "y" or answer == "n" or answer == "N":
                             print("Please enter ", Y ," for yes or ", N," for no.\n Rerun program and try again.")
                     else:
                         print("Please enter ",Y," for yes or ",N," for no.\n Rerun program and try again.")
+                else:
+                    print("Please enter ",Y," for yes or ",N," for no.\n Rerun program and try again.")
