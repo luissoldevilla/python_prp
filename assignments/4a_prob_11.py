@@ -13,6 +13,7 @@ user_answer2 = int(input('Type your answer: '))
 def check(random1, random2):
     if ((random1 + random2) == user_answer):
         print('Congrast you are right!')
+        print('Congrast!')
     else: print('Wrongg!!')
 
 answer = check(random1,random2)
