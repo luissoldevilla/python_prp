@@ -9,6 +9,7 @@ print(random1, random2)
 
 user_answer = int(input('Type your answer: '))
 user_answer2 = int(input('Type your answer: '))
+user_answer3 = int(input('Type your answer: '))
 
 def check(random1, random2):
     if ((random1 + random2) == user_answer):
