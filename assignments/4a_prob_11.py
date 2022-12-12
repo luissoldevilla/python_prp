@@ -15,6 +15,7 @@ def check(random1, random2):
     if ((random1 + random2) == user_answer):
         print('Congrast you are right!')
         print('Congrast!')
+        print('Congrast!')
         print('Or You can Print message!')
     else: print('Wrongg!!')
 
