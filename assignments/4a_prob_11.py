@@ -19,5 +19,6 @@ def check(random1, random2):
     else: print('Wrongg!!')
 
 answer = check(random1,random2)
+answer2 = check(random1,random2)
 
 print(answer)
