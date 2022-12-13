@@ -5,6 +5,7 @@
 import random
 
 countEven = 0
+counts = 0
 countOdd = 0
 
 for count in range(100):
@@ -16,5 +17,4 @@ for count in range(100):
         countOdd += 1
 
 print('Numbers of Even:', countEven)
-print('Numbers of Odd:', countOdd)
 print('Numbers of Odd:', countOdd)
