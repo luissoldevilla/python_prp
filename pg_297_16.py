@@ -2,10 +2,11 @@
 # and keeps a count of how many of those random 
 # numbers are even, and how many of them are odd.
 
+# The problem solution:
+
 import random
 
 countEven = 0
-counts = 0
 countOdd = 0
 
 for count in range(100):
