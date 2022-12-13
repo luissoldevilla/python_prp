@@ -17,3 +17,4 @@ for count in range(100):
 
 print('Numbers of Even:', countEven)
 print('Numbers of Odd:', countOdd)
+print('Numbers of Odd:', countOdd)
