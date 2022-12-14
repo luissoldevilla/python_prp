@@ -9,6 +9,7 @@ import random
 countEven = 0
 countOdd = 0
 count4 = 0
+count5 = 0
 
 
 for count in range(100):
