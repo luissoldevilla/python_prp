@@ -1,4 +1,4 @@
-# Problem 215 # 9
+# Problem 215 Number 9
 # We can start the ocean level at 0
 ocean_level = 0
 # We set a variable for the constant value of 1.6
