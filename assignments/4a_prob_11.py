@@ -5,7 +5,6 @@ random2 = random.randint(0, 500)
 random3 = random.randoint(0,500)
 random4 = random.randoint(0,500)
 random5 = random.randoint(0,500)
-random6 = random.randoint(0,500)
 
 
 print(random1, random2)
