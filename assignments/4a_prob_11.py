@@ -25,3 +25,4 @@ answer2 = check(random1,random2)
 
 print(answer)
 print(answer)
+print(answer)
