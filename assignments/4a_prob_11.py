@@ -3,6 +3,7 @@ import random
 random1 = random.randint(0, 500)
 random2 = random.randint(0, 500)
 random3 = random.randint(0, 500)
+random4 = random.randint(0, 500)
 
 
 print(random1, random2)
