@@ -19,6 +19,7 @@ def check(random1, random2):
 
 answer = check(random1,random2)
 answer2 = check(random1,random2)
+answer3 = check(random1,random2)
 
 print(answer)
 
