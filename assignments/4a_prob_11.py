@@ -21,6 +21,7 @@ answer = check(random1,random2)
 answer2 = check(random1,random2)
 answer3 = check(random1,random2)
 answer4 = check(random1,random2)
+answer5 = check(random1,random2)
 
 print(answer)
 
