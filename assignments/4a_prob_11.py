@@ -1,5 +1,5 @@
 # Problem 11
-#  we import the library 
+#  we import the library random
 import random
 
 random1 = random.randint(0, 500)
