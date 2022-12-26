@@ -1,4 +1,5 @@
 # Problem 11
+#  we import 
 import random
 
 random1 = random.randint(0, 500)
