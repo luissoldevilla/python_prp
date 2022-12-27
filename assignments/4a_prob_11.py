@@ -1,5 +1,5 @@
 # Problem 11
-#  we import the library random
+# we import the library random
 import random
 
 random1 = random.randint(0, 500)
@@ -19,4 +19,5 @@ answer = check(random1,random2)
 answer2 = check(random1,random2)
 
 print(answer)
+print(answer2)
 print(answer2)
