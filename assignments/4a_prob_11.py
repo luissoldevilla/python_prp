@@ -9,6 +9,7 @@ print(random1, random2)
 print(random1, random2)
 print(random1, random2)
 print(random1, random2)
+print(random1, random2)
 
 user_answer = int(input('Type your answer: '))
 
