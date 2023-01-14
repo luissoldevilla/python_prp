@@ -23,3 +23,4 @@ answer5 = check(random1,random2)
 answer6 = check(random1,random2)
 
 print(answer)
+print(answer)
