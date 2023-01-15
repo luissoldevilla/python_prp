@@ -6,6 +6,7 @@ random1 = random.randint(0, 500)
 random2 = random.randint(0, 500)
 
 print(random1, random2)
+print(random1, random2)
 
 user_answer = int(input('Type your answer: '))
 
@@ -18,12 +19,5 @@ def check(random1, random2):
 answer = check(random1,random2)
 answer2 = check(random1,random2)
 answer3 = check(random1,random2)
-answer4 = check(random1,random2)
-answer5 = check(random1,random2)
-answer6 = check(random1,random2)
 
-print(answer)
-print(answer)
-print(answer)
-print(answer)
 print(answer)
