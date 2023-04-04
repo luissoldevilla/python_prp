@@ -58,7 +58,7 @@ if __name__ == "__main__":
             engine.say("disengaging")
             engine.runAndWait()
         elif "List today's task" in query:
-            engine.say("Your tasks for today are:")
+            engine.say("Your tasks for today are: 5 Leetcode Problems")
             engine.runAndWait()
             break
         else:
