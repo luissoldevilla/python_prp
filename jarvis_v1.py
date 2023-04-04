@@ -57,6 +57,9 @@ if __name__ == "__main__":
         elif "disengage" in query:
             engine.say("disengaging")
             engine.runAndWait()
+        elif "List today's task" in query:
+            engine.say("Your tasks for today are:")
+            engine.runAndWait()
             break
         else:
             engine.say("I'm sorry, I did not understand what you said.")
