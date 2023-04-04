@@ -54,9 +54,6 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             engine.say(f"The time is {strTime}")
             engine.runAndWait()
-        elif "tell her to hurry up" in query:
-            engine.say("Loquita hurry your ass up")
-            engine.runAndWait()
         elif "disengage" in query:
             engine.say("disengaging")
             engine.runAndWait()
