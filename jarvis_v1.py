@@ -14,7 +14,7 @@ def greet():
     if hour >= 0 and hour < 12:
         engine.say("Morning Sir!")
     elif hour == 5:
-        engine.say("Engagign morniing Routine")
+        engine.say("Engaging morniing Routine")
     elif hour >= 12 and hour < 18:
         engine.say("Good afternoon!")
     else:
