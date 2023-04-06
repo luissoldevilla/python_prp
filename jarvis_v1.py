@@ -35,7 +35,6 @@ def recognize_speech():
         print("Recognizing...")
         query = r.recognize_google(audio, language='en-US')
         print(f"User said: {query}\n")
-        print(f"How what can i do for you?")
     except Exception as e:
         print("I'm sorry, I did not understand what you said.")
         return "None"
@@ -44,6 +43,9 @@ def recognize_speech():
 # Main function
 if __name__ == "__main__":
     greet()
+    
+    query = recognize_speech().lower()
+
     while True:
         query = recognize_speech().lower()
         if "open youtube" in query:
