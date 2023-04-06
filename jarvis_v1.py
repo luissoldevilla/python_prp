@@ -27,7 +27,6 @@ def recognize_speech():
 
     # Implementing Voice Recognizer
     r = sr.Recognizer()
-    source = "Jarvis"
     with sr.Microphone() as source:
         print("Listening...")
         r.pause_threshold = 1
@@ -36,6 +35,7 @@ def recognize_speech():
         print("Recognizing...")
         query = r.recognize_google(audio, language='en-US')
         print(f"User said: {query}\n")
+        print(f"How what can i do for you?")
     except Exception as e:
         print("I'm sorry, I did not understand what you said.")
         return "None"
