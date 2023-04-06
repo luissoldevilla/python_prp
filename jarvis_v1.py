@@ -27,6 +27,7 @@ def recognize_speech():
 
     # Implementing Voice Recognizer
     r = sr.Recognizer()
+    source = "Jarvis"
     with sr.Microphone() as source:
         print("Listening...")
         r.pause_threshold = 1
