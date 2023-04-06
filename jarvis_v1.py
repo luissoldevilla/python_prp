@@ -24,6 +24,8 @@ def greet():
 
 # Recognize speech input
 def recognize_speech():
+
+    # Implementing Voice Recognizer
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
