@@ -46,30 +46,29 @@ if __name__ == "__main__":
 
     query = recognize_speech().lower()
 
-    if "Jarvis" in query:
-
-        while True:
-            # query = recognize_speech().lower()
-            if "open youtube" in query:
-                webbrowser.open("https://www.youtube.com")
-            elif "open google" in query:
-                webbrowser.open("https://www.google.com")
-            elif "play music" in query:
-                music_dir = 'C:\\Music\\'
-                songs = os.listdir(music_dir)
-                song = random.choice(songs)
-                os.startfile(os.path.join(music_dir, song))
-            elif "what time is it" in query:
-                strTime = datetime.datetime.now().strftime("%H:%M:%S")
-                engine.say(f"The time is {strTime}")
-                engine.runAndWait()
-            elif "disengage" in query:
-                engine.say("disengaging")
-                engine.runAndWait()
-            elif "List today's task" in query:
-                engine.say("Your tasks for today are: 5 Leetcode Problems")
-                engine.runAndWait()
-                break
-            else:
-                engine.say("I'm sorry, I did not understand what you said.")
-                engine.runAndWait()
+    # if "Jarvis" in query:
+    while "Jarvis" in query:
+        # query = recognize_speech().lower()
+        if "open youtube" in query:
+            webbrowser.open("https://www.youtube.com")
+        elif "open google" in query:
+            webbrowser.open("https://www.google.com")
+        elif "play music" in query:
+            music_dir = 'C:\\Music\\'
+            songs = os.listdir(music_dir)
+            song = random.choice(songs)
+            os.startfile(os.path.join(music_dir, song))
+        elif "what time is it" in query:
+            strTime = datetime.datetime.now().strftime("%H:%M:%S")
+            engine.say(f"The time is {strTime}")
+            engine.runAndWait()
+        elif "disengage" in query:
+            engine.say("disengaging")
+            engine.runAndWait()
+        elif "List today's task" in query:
+            engine.say("Your tasks for today are: 5 Leetcode Problems")
+            engine.runAndWait()
+            break
+        else:
+            engine.say("I'm sorry, I did not understand what you said.")
+            engine.runAndWait()
