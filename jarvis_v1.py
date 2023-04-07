@@ -50,10 +50,7 @@ if __name__ == "__main__":
         elif "open google" in query:
             webbrowser.open("https://www.google.com")
         elif "play music" in query:
-            music_dir = 'C:\\Music\\'
-            songs = os.listdir(music_dir)
-            song = random.choice(songs)
-            os.startfile(os.path.join(music_dir, song))
+            webbrowser.open("https://open.spotify.com/")
         elif "what time is it" in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             engine.say(f"The time is {strTime}")
