@@ -44,9 +44,7 @@ def recognize_speech():
 if __name__ == "__main__":
     greet()
 
-    query = recognize_speech().lower()
-
-    # if "Jarvis" in query:
+    # query = recognize_speech().lower()
     while "Jarvis" in query:
         # query = recognize_speech().lower()
         if "open youtube" in query:
