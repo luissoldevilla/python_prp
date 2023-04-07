@@ -43,10 +43,8 @@ def recognize_speech():
 # Main function
 if __name__ == "__main__":
     greet()
-
-    # query = recognize_speech().lower()
-    while "Jarvis" in query:
-        # query = recognize_speech().lower()
+    while True:
+        query = recognize_speech().lower()
         if "open youtube" in query:
             webbrowser.open("https://www.youtube.com")
         elif "open google" in query:
