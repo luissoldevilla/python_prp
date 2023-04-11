@@ -50,7 +50,7 @@ if __name__ == "__main__":
         elif "open google" in query:
             webbrowser.open("https://www.google.com")
         elif "play music" in query:
-            webbrowser.open("https://open.spotify.com/")
+            webbrowser.open("")
         elif "what time is it" in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             engine.say(f"The time is {strTime}")
