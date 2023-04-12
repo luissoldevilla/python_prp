@@ -51,6 +51,7 @@ if __name__ == "__main__":
         # this query opens google
         elif "open google" in query:
             webbrowser.open("https://www.google.com")
+        # this query opens music app
         elif "play music" in query:
             webbrowser.open("")
         elif "what time is it" in query:
