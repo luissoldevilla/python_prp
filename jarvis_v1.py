@@ -54,6 +54,7 @@ if __name__ == "__main__":
         # this query opens music app
         elif "play music" in query:
             webbrowser.open("")
+        # this query tells time
         elif "what time is it" in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             engine.say(f"The time is {strTime}")
