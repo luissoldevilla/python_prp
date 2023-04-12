@@ -45,6 +45,7 @@ if __name__ == "__main__":
     greet()
     while True:
         query = recognize_speech().lower()
+        # this query opens youtube
         if "open youtube" in query:
             webbrowser.open("https://www.youtube.com")
         elif "open google" in query:
