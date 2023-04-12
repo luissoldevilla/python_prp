@@ -59,6 +59,7 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             engine.say(f"The time is {strTime}")
             engine.runAndWait()
+        # this query disgengages
         elif "disengage" in query:
             engine.say("disengaging")
             engine.runAndWait()
