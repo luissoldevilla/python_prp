@@ -68,6 +68,7 @@ if __name__ == "__main__":
             engine.say("Your tasks for today are: 5 Leetcode Problems")
             engine.runAndWait()
             break
+        # this query is for the team
         else:
             engine.say("I'm sorry, I did not understand what you said.")
             engine.runAndWait()
