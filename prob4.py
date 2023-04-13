@@ -10,5 +10,6 @@ subtotal = item1 + item2 + item3 +item4 + item5
 tax = subtotal * 0.07
 
 total = subtotal + tax
+# this is what what prints out
 print('Your subtotal is:', subtotal)
 print('Total:', total)
